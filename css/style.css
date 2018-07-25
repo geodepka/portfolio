@@ -1,0 +1,85 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+header {
+  position: relative;
+  width: 100%;
+  min-height: auto;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  background-position: center;
+  background-image: url('../img/bg.jpg');
+  text-align: center;
+  color: white;
+}
+header .header-content {
+  position: relative;
+  text-align: center;
+  padding: 100px 15px 100px;
+  width: 100%;
+}
+.img-icon{
+    width: 18%;
+    border: 4px solid white;
+}
+header .header-content .header-content-inner h1 {
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 30px;
+  text-align: center;
+  font-style: italic;
+  font-family:monospace;
+}
+@media (min-width: 768px) {
+  header {
+    min-height: 100%;
+    text-align: center;
+  }
+  header .header-content {
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    padding: 0 50px;
+    text-align: center;
+  }
+  header .header-content .header-content-inner {
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding-top: 15px;
+  }
+  header .header-content .header-content-inner h1 {
+    font-size: 60px;
+    text-align: center;
+  }
+  header .header-content .header-content-inner h3 {
+    font-size: 40px;
+    text-align: center;
+    margin-top: -5px;
+  }
+  header .header-content .header-content-inner p {
+    font-size: 18px;
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+}
+.shadow {
+   text-shadow: black 0.1em 0.1em 0.2em;
+}
+.text-center {
+  text-align: center;
+}
+hr.light {
+   border-width: 4px;
+   max-width: 200px;
+ }
