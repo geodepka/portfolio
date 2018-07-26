@@ -2,6 +2,7 @@ html, body {
   height: 100%;
   width: 100%;
 }
+
 header {
   position: relative;
   width: 100%;
@@ -15,16 +16,19 @@ header {
   text-align: center;
   color: white;
 }
+
 header .header-content {
   position: relative;
   text-align: center;
   padding: 100px 15px 100px;
   width: 100%;
 }
+
 .img-icon{
     width: 18%;
     border: 4px solid white;
 }
+
 header .header-content .header-content-inner h1 {
   font-weight: 700;
   text-transform: uppercase;
@@ -40,6 +44,7 @@ header .header-content .header-content-inner h1 {
     min-height: 100%;
     text-align: center;
   }
+
   header .header-content {
     position: absolute;
     top: 50%;
@@ -49,6 +54,7 @@ header .header-content .header-content-inner h1 {
     padding: 0 50px;
     text-align: center;
   }
+
   header .header-content .header-content-inner {
     max-width: 1000px;
     margin-left: auto;
@@ -56,15 +62,18 @@ header .header-content .header-content-inner h1 {
     text-align: center;
     padding-top: 15px;
   }
+
   header .header-content .header-content-inner h1 {
     font-size: 60px;
     text-align: center;
   }
+
   header .header-content .header-content-inner h3 {
     font-size: 40px;
     text-align: center;
     margin-top: -5px;
   }
+
   header .header-content .header-content-inner p {
     font-size: 18px;
     max-width: 80%;
@@ -73,13 +82,100 @@ header .header-content .header-content-inner h1 {
     text-align: center;
   }
 }
+
 .shadow {
    text-shadow: black 0.1em 0.1em 0.2em;
 }
+
 .text-center {
   text-align: center;
 }
+
 hr.light {
    border-width: 4px;
    max-width: 200px;
  }
+
+ .container img {
+   max-width: 200px;
+   max-height: 200px;
+   width: auto;
+   height: auto;
+ }
+
+ .btn-green{
+   color: #fff;
+   background-color: #3ebcb2;
+   border-color: #3ebcb2;
+   text-align: center;
+ }
+
+ a:focus, a:hover {
+   color: white !important;
+   text-decoration: none !important;
+   background-color: #82ccdd;
+ }
+
+ .tamb-img {
+   width: 100%;
+   height: 215px !important;
+ }
+
+ .h4-color {
+   color: white;
+   font-size: 30px !important;
+   background-color: #00000052;
+   background-size: 50%;
+ }
+
+/* Ajustar todas as imagens do carousel */
+ /* .tam-img-carousel { */
+   /* width: 980px; */
+   /* height: 590px; */
+ /* } */
+ footer {
+   position: relative;
+   width: 100%;
+   min-height: auto;
+   -webkit-background-size: cover;
+   -moz-background-size: cover;
+   background-size: cover;
+   -o-background-size: cover;
+   background-position: center;
+   background-image: url('');
+   text-align: center;
+   color: white;
+ }
+
+.header-site {
+  background-image: url('../img/bg1.jpg');
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  color: #ffffff;
+  padding-top: 300px;
+  padding-bottom: 300px;
+}
+
+.content-site {
+  padding-top: 200px;
+  padding-bottom: 200px;
+}
+
+.img-site {
+  background-image: url('../img/bg2.jpg');
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  padding-top: 200px;
+  padding-bottom: 200px;
+}
+
+.footer-site {
+  background-color: #333333;
+  color: #ffffff;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
