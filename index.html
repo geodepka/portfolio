@@ -1,12 +1,13 @@
 <!DOCTYPE html>
 <html lang="pt-br" dir="ltr">
-  <head>
+  <head class="titulo">
     <meta charset="utf-8">
     <title>Geovane Depa Borges</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Cabin" rel="stylesheet">
   </head>
-  <body>
+  <body class="titulo">
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-122999456-1"></script>
       <script>
@@ -16,7 +17,66 @@
 
         gtag('config', 'UA-122999456-1');
       </script>
+
     <header class="header-site">
+      <nav class="navbar navbar-default navbar-fixed-top affix-top">
+        <div class="container-fluid">
+          <!-- Brand and toggle get grouped for better mobile display -->
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">Geovane</a>
+          </div>
+
+          <!-- Collect the nav links, forms, and other content for toggling -->
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <!-- <ul class="nav navbar-nav">
+              <li class="active"><a href="#">Link <span class="sr-only">(current)</span></a></li>
+              <li><a href="#">Link</a></li>
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                  <li><a href="#">Action</a></li>
+                  <li><a href="#">Another action</a></li>
+                  <li><a href="#">Something else here</a></li>
+                  <li role="separator" class="divider"></li>
+                  <li><a href="#">Separated link</a></li>
+                  <li role="separator" class="divider"></li>
+                  <li><a href="#">One more separated link</a></li>
+                </ul>
+              </li>
+            </ul> -->
+            <!-- <form class="navbar-form navbar-left">
+              <div class="form-group">
+                <input type="text" class="form-control" placeholder="Search">
+              </div>
+              <button type="submit" class="btn btn-default">Pesquisar</button>
+            </form> -->
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="#quem-sou-eu">Quem sou eu</a></li>
+              <li><a href="#projetos">Projetos</a></li>
+              <li><a href="#alguns-projetos">Alguns Projetos</a></li>
+              <li><a href="#videos">Vídeos</a></li>
+              <li><a href="pagina2.html">Página 2</a></li>
+
+              <!-- <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                  <li><a href="#">Action</a></li>
+                  <li><a href="#">Another action</a></li>
+                  <li><a href="#">Something else here</a></li>
+                  <li role="separator" class="divider"></li>
+                  <li><a href="#">Separated link</a></li>
+                </ul>
+              </li> -->
+            </ul>
+          </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+      </nav>
       <section>
         <div class="header-content">
           <div class="header-content-inner">
@@ -30,12 +90,12 @@
         </div>
       </section>
     </header>
-    <section>
+    <section id="quem-sou-eu">
       <div class="container">
         <div class="row">
           <h1 class="text-center">Quem sou eu</h1>
           <hr class="light">
-          <p>Meu nome é Geovane Depa Borges, sou Designer formado na Universidade do Estado da Bahia - UNEB e atualmente estou estudando Sistemas de Informação também na UNEB.</p>
+          <p class="txt-qseu">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
         </div>
       <!-- </div> -->
       <!-- <div class=""> -->
@@ -43,10 +103,10 @@
         <!-- <p>Meu nome é Geovane Depa Borges, sou Designer formado na Universidade do Estado da Bahia - UNEB e atualmente estou estudando Sistemas de Informação também na UNEB.</p> -->
       <!-- </div> -->
     </section>
-    <section>
+    <section id="projetos">
       <div class="container">
         <div class="row">
-          <h1 class="text-center">PROJETOS</h1>
+          <h1 class="text-center">Projetos</h1>
           <hr class="light">
         </div>
         <div class="row">
@@ -115,10 +175,10 @@
 
       </div>
     </section>
-    <section>
+    <section id="alguns-projetos">
       <div class="container">
         <div class="row">
-          <h1 class="text-center">ALGUNS PROJETOS</h1>
+          <h1 class="text-center">Alguns Projetos</h1>
           <hr class="light">
         </div>
       </div>
@@ -166,10 +226,10 @@
         </a>
         </div>
     </section>
-    <section>
+    <section id="videos" class="padding-vid">
       <div class="container">
         <div class="row">
-          <h1 class="text-center">VÍDEOS</h1>
+          <h1 class="text-center">Vídeos</h1>
           <hr class="light">
         </div>
         <div class="row">
@@ -189,12 +249,15 @@
     <section class="img-site">
       <div class="header-content">
         <div class="header-content-inner text-center">
-          <h1 class="shadow">É isso ai</h1>
-          <h3 class="shadow">Muito obrigado!</h3>
+          <h4 class="txt-final">É isso ai pessoal</h4>
+          <!-- <h1 class="h1-final">É isso ai pessoal</h1> -->
+          <h3 class="shadow h3-style">Muito obrigado!</h3>
         </div>
       </div>
       <!-- <h1>É isso ai</h1> -->
     </section>
+    <footer> <p class="footer-site">Feito com <span class="glyphicon glyphicon-heart" aria-hidden="true"></span> em 2018 por <span class="footer-site-italic">Geovane Depa Borges</span></p>
+    </footer>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
   </body>

@@ -39,6 +39,7 @@ header .header-content .header-content-inner h1 {
   font-style: italic;
   font-family:monospace;
 }
+
 @media (min-width: 768px) {
   header {
     min-height: 100%;
@@ -147,6 +148,7 @@ hr.light {
    color: white;
  }
 
+/* Header Parallax */
 .header-site {
   background-image: url('../img/bg.jpg');
   background-position: center top;
@@ -163,19 +165,76 @@ hr.light {
   padding-bottom: 200px;
 }
 
+/* Fundo Parallax */
 .img-site {
   background-image: url('../img/bg2.jpg');
   background-position: center top;
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
-  padding-top: 200px;
-  padding-bottom: 200px;
+  padding-top: 150px;
+  padding-bottom: 150px;
 }
 
 .footer-site {
-  background-color: #333333;
+  background-color: black;
   color: #ffffff;
-  padding-top: 50px;
-  padding-bottom: 50px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  text-align: center;
+  font-size: 14px;
+  margin: 0px 0 0px;
+}
+
+.footer-site-italic {
+  font-style: italic;
+}
+
+.padding-vid {
+  padding: 20px;
+}
+
+.titulo {
+  font-family: 'Cabin', sans-serif;
+}
+
+.img-pos-car {
+  position: fixed;
+}
+
+.txt-final {
+  font-size: 60px !important;
+  text-shadow: black 0.1em 0.1em 0.2em;
+  color: white;
+  text-align: center;
+}
+
+.txt-qseu {
+  font-size: 20px;
+  text-align: justify;
+}
+
+/* .navbar {
+  position: fixed !important;
+} */
+
+/* .navtop {
+  position: absolute;
+
+} */
+
+/* .container-fluid {
+  padding-bottom: 0px !important;
+} */
+
+.navbar-default {
+    background-color: black !important;
+    border-color: black !important;
+    color: white !important;
+}
+
+.h3-style {
+  font-size: 45px;
+  color: white;
+
 }
